@@ -13,7 +13,7 @@ This project is a basic Contact Management System (CMS) developed using Laravel 
 <img src="./screenshot/home.png" alt="home"   width="auto" />
 <img src="./screenshot/recherch.png" alt="home"   width="auto" />
         - **Update Contacts**:  can edit the details of existing contacts.
-<img src="./screenshots/update.png" alt="home"   width="auto" />
+<img src="./screenshot/update.png" alt="home"   width="auto" />
 
         - **Delete Contacts**: Contacts can be removed from the system if they are no longer needed.
 <img src="./screenshot/delete.png" alt="home"   width="auto" />
