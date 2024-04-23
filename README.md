@@ -5,19 +5,19 @@ This project is a basic Contact Management System (CMS) developed using Laravel 
 ## Navigating the Application
 
         - **Create Contacts**:  can add new contacts with their name, email, phone, and address.
-<img src="./screenshots/home.png" alt="drawing"   width="auto" />
-<img src="./screenshots/create.png" alt="drawing"   width="auto" />
-<img src="./screenshots/mobilcreate.png" alt="drawing"   width="auto" />
-<img src="./screenshots/createsecuss.png" alt="drawing"   width="auto" />
+<img src="./screenshot/home.png" alt="home"   width="auto" />
+<img src="./screenshot/create.png" alt="home"   width="auto" />
+<img src="./screenshot/mobilcreate.png" alt="home"   width="auto" />
+<img src="./screenshot/createsecuss.png" alt="home"   width="auto" />
         - **View Contacts**: Contacts are displayed in a list format, showing their basic information.
-<img src="./screenshots/home.png" alt="drawing"   width="auto" />
-<img src="./screenshots/recherch.png" alt="drawing"   width="auto" />
+<img src="./screenshot/home.png" alt="home"   width="auto" />
+<img src="./screenshot/recherch.png" alt="home"   width="auto" />
         - **Update Contacts**:  can edit the details of existing contacts.
-<img src="./screenshots/update.png" alt="drawing"   width="auto" />
+<img src="./screenshots/update.png" alt="home"   width="auto" />
 
         - **Delete Contacts**: Contacts can be removed from the system if they are no longer needed.
-<img src="./screenshots/delete.png" alt="drawing"   width="auto" />
-<img src="./screenshots/message.png" alt="drawing"   width="auto" />
+<img src="./screenshot/delete.png" alt="home"   width="auto" />
+<img src="./screenshot/message.png" alt="home"   width="auto" />
 
 ## Setup
 
@@ -32,14 +32,17 @@ To set up and run this project locally, follow these steps:
 
 3. **Install Dependencies:**:
     composer install
+   
+4. **Copy the Environment File**:
+    cp .env.example .env
 
-4. **Configure Database**:
-²²²Update the database configuration in the .env file with your database credentials.
+5. **Configure Database**:
+    Update the database configuration in the .env file with your database credentials.
 
-5. **Run Migrations:**:
+6. **Run Migrations:**:
     php artisan migrate
 
-6. **Start the Development Server**:
+7. **Start the Development Server**:
     php artisan serve
 
 9. **Access the Application**:
